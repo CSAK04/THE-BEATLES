@@ -21,8 +21,8 @@ function updateCartTotal(){
         var cartrow=cart_row[i]
         var total_price=cartrow.getElementsByClassName("cart-price")[i]
         var quantity_total=cartrow.getElementsByClassName("cart-quantity")[i].Value;
-        var price=parseFloat(total_price.innerHTML.replace("$",''))
-        //var quantity=quantity_total.Value
+        var price=parseFloat(total_price.innerHTML)
+        var quantity=quantity_total.Value
         console.log(quantity_total)    
     }
 
