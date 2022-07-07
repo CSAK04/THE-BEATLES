@@ -1,3 +1,5 @@
+ alert('merch is under maintenance')
+
 var removeCartItemsbtn = document.getElementsByClassName("btn-dngr")
 console.log(removeCartItemsbtn)
 for(var i=0;i<removeCartItemsbtn.length;i++){
